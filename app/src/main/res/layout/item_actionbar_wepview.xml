@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:orientation="horizontal">
+
+    <ImageButton
+        android:id="@+id/btnTroVe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="6dp"
+        android:background="@drawable/ic_tro_ve" />
+
+    <TextView
+        android:id="@+id/tvTieuDe"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:autoSizeTextType="uniform"
+        android:fontFamily="monospace"
+        android:maxLines="1"
+        android:text="Tin tức mẹ và bé"
+        android:textColor="@color/colorTextPrimary"
+        android:textStyle="bold" />
+
+    <ImageButton
+        android:id="@+id/btnYeuThich"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="8dp"
+        android:background="@drawable/ic_khong_yeu_thich" />
+
+    <ImageButton
+        android:id="@+id/btnChiaSe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="8dp"
+        android:background="@drawable/ic_chia_se" />
+
+    <ImageButton
+        android:id="@+id/btnCaiDat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="6dp"
+        android:background="@drawable/ic_cai_dat" />
+
+</LinearLayout>

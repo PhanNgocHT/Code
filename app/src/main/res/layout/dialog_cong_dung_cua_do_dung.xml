@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/tvTenDoDung"
+        style="@style/TextViewTitle"
+        android:layout_marginTop="16dp"
+        android:fontFamily="monospace"
+        android:gravity="center"
+        android:text="Cọ bình sữa"
+        android:paddingRight="2dp"
+        android:paddingLeft="2dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="16dp"
+        android:background="@color/colorBackGroundActionBar" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+        <TextView
+            android:id="@+id/tvCongDung"
+            style="@style/TextViewContent"
+            android:fontFamily="monospace"
+            android:padding="10dp"
+            android:textSize="18dp"
+            android:text="Dùng để súc rửa bình sữa cho bé" />
+    </ScrollView>
+</LinearLayout>

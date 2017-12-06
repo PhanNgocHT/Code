@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@drawable/shape_group_dat_ten_cho_be"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/tvYNghiaTen"
+        android:layout_marginLeft="24dp"
+        style="@style/TextViewContent"
+        android:textSize="18dp"
+        android:fontFamily="monospace"
+        android:textColor="@color/colorAccent"
+        android:text="Dũng mãnh, phi thường"
+        />
+    <TextView
+        android:layout_marginLeft="24dp"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/colorTextViewContent"
+        />
+    <TextView
+        android:id="@+id/tvDanhSachTen"
+        android:layout_marginLeft="24dp"
+        style="@style/TextViewContent"
+        android:fontFamily="monospace"
+        android:textSize="18dp"
+        android:textColor="@color/colorAccent"
+        android:text="Bá dũng, Hoàng dũng"
+        />
+
+</LinearLayout>

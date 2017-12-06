@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        style="@style/TextViewTitle"
+        android:textColor="@color/colorPrimaryDark"
+        android:textStyle="bold"
+        android:id="@+id/tvThoiGianTiemPhong"
+        android:text="1 tháng"
+        android:layout_marginTop="8.6dp"
+        android:fontFamily="monospace"
+        android:padding="24dp"
+        android:background="@drawable/shape_group_dat_ten_cho_be"
+        />
+
+</LinearLayout>

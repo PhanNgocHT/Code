@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tvTenBenhTiemPhong"
+        style="@style/TextViewTitle"
+        android:layout_marginTop="16dp"
+        android:fontFamily="monospace"
+        android:gravity="center"
+        android:text="Nguyễn Bá Dũng"
+        android:paddingRight="2dp"
+        android:paddingLeft="2dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="16dp"
+        android:background="@color/colorBackGroundActionBar" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <TextView
+            android:id="@+id/tvMoTaBenhTiemPhong"
+            style="@style/TextViewContent"
+            android:textSize="18dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="6dp"
+            android:fontFamily="monospace"
+            android:paddingRight="6dp"
+            android:text="Nguyễn Bá Dũng" />
+    </ScrollView>
+
+</LinearLayout>

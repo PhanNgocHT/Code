@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="horizontal">
+
+    <ImageButton
+        android:id="@+id/btnTroVe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="2dp"
+        android:background="@drawable/ic_tro_ve"
+        android:scaleType="centerInside" />
+
+    <TextView
+        android:id="@+id/tvTieuDe"
+        android:layout_width="0dp"
+        style="@style/TextViewTitle"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textColor="@color/colorTextPrimary"
+        android:autoSizeTextType="uniform"
+        android:maxLines="1"
+        android:fontFamily="monospace"
+        android:gravity="center"
+        android:text="Tin tức mẹ và bé" />
+
+    <ImageButton
+        android:id="@+id/btnChuyenHoatLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="6dp"
+        android:background="@drawable/ic_linear_layout"
+        android:scaleType="centerInside" />
+
+</LinearLayout>

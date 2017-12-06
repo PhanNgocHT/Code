@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    android:installLocation="auto"
+    package="com.zuckerteam.mevabe">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_app"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_app"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".main.MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".main.StartApplicationActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/StartApplicationTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".main.TinTucMeVaBeActivity"
+            android:theme="@style/ThemeCustomActionBar" />
+        <activity
+            android:name=".main.ThaiKyActivity"
+            android:theme="@style/ThemeCustomActionBar" />
+        <activity
+            android:name=".tintucmavabe.DinhDuongBaBauActivity"
+            android:theme="@style/ThemeCustomActionBar" />
+        <activity
+            android:name=".tintucmavabe.KinhNghiemDiDeActivity"
+            android:theme="@style/ThemeCustomActionBar" />
+        <activity
+            android:name=".tintucmavabe.DayConActivity"
+            android:theme="@style/ThemeCustomActionBar" />
+        <activity
+            android:name=".tintucmavabe.ChamSocTreActivity"
+            android:theme="@style/ThemeCustomActionBar" />
+        <activity
+            android:name=".tintucmavabe.GocHaiHuocActivity"
+            android:theme="@style/ThemeCustomActionBar" />
+        <activity
+            android:name=".main.LichKhamThaiActivity"
+            android:theme="@style/ThemeCustomActionBar" />
+        <activity
+            android:name=".main.MuaSamActivity"
+            android:theme="@style/ThemeCustomActionBar" />
+        <activity
+            android:name=".main.TenHayCuaBeActivity"
+            android:theme="@style/ThemeCustomActionBar" />
+        <activity
+            android:name=".main.KeChuyenChoBeActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".main.AmNhacActivity"
+            android:theme="@style/ThemeCustomActionBar" />
+        <activity
+            android:name=".main.ThoiTietActivity"
+            android:theme="@style/ThemeCustomActionBar" />
+        <activity
+            android:name=".main.DanhGiaUngDungActivity"
+            android:theme="@style/ThemeCustomActionBar" />
+        <activity
+            android:name=".main.UngDungKhacActivity"
+            android:theme="@style/ThemeCustomActionBar" />
+        <activity
+            android:name="com.zuckerteam.wepview.WepViewActivity"
+            android:theme="@style/ThemeCustomWepView" />
+        <activity
+            android:name=".thaiky.BieuDoThaiKyActivity"
+            android:theme="@style/ThemeCustomActionBar" />
+        <activity
+            android:name=".thaiky.BienChungThaiKyActivity"
+            android:theme="@style/ThemeCustomActionBar" />
+        <activity
+            android:name=".thaiky.ViecCanLamActivity"
+            android:theme="@style/ThemeCustomActionBar" />
+        <activity
+            android:name=".thaiky.ChiTietBieuDoThaiKyActivity"
+            android:theme="@style/ThemeCustomActionBar" />
+        <activity
+            android:name=".tintucmavabe.YeuThichActivity"
+            android:theme="@style/ThemeCustomActionBar" />
+        <activity
+            android:name="com.zuckerteam.wepview.WepViewOfflineActivity"
+            android:theme="@style/ThemeCustomActionBar" />
+        <activity
+            android:name=".main.SoTayActivity"
+            android:theme="@style/ThemeCustomActionBar"></activity>
+        <service android:name="com.zuckerteam.media.MediaService"/>
+    </application>
+
+
+</manifest>

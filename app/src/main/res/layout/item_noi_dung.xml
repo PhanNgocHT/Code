@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="40dp"
+    android:layout_marginLeft="6dp"
+    android:layout_gravity="center"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:id="@+id/imgAnhDanhMuc"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_gravity="center"
+        android:src="@drawable/icon_thai_ky"
+        android:scaleType="fitXY" />
+
+    <TextView
+        android:id="@+id/tvTenDanhMuc"
+        style="@style/TextViewTitle"
+        android:layout_gravity="center"
+        android:text="@string/thai_ky"
+        android:fontFamily="serif"
+        android:textSize="14dp"
+        android:layout_marginLeft="10dp"
+        />
+
+
+</LinearLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#E91E63</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorBackGroundActionBar">#E91E63</color>
+    <color name="colorTextPrimary">#1A237E</color>
+    <color name="colorTextViewTitle">#1A237E</color>
+    <color name="colorTextViewContent">#616161</color>
+    <color name="colorTextViewListViewDanhSachChuyen">#d2d2d2</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorLittePink">#FCE4EC</color>
+    <color name="colorSomePink">#F8BBD0</color>
+    <color name="colorBackgroundNavigationKeTruyenChoBe">#252525</color>
+    <color name="colorGray">#424242</color>
+</resources>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="6dp"
+    android:layout_marginRight="6dp"
+    android:layout_marginTop="16dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tvTenDoDung"
+        style="@style/TextViewTitle"
+        android:layout_width="match_parent"
+        android:background="@drawable/shape_group_dat_ten_cho_be"
+        android:fontFamily="monospace"
+        android:padding="8dp"
+        android:text="Chăm sóc bà bầu" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1.6dp"
+        android:background="@color/colorPrimaryDark" />
+
+    <TextView
+        android:id="@+id/tvMoTaDoDung"
+        style="@style/TextViewContent"
+        android:background="@drawable/shape_group_dat_ten_cho_be"
+        android:fontFamily="monospace"
+        android:padding="6dp"
+        android:text="Chăm sóc bà bầu"
+        android:textSize="20dp" />
+
+</LinearLayout>

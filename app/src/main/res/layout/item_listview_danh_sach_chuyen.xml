@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/tvTenChuyen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hai con ngựa"
+        android:textStyle="bold"
+        android:padding="8dp"
+        android:gravity="center_vertical"
+        android:textColor="@color/colorTextViewListViewDanhSachChuyen"
+        android:fontFamily="monospace"
+        android:textSize="20dp"
+        android:maxLines="1"
+        android:ellipsize="end"
+        android:drawablePadding="10dp"
+        android:drawableRight="@drawable/icon_mui_ten"
+        />
+</LinearLayout>

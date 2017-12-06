@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackgroundNavigationKeTruyenChoBe"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:layout_marginTop="16dp"
+        >
+
+        <EditText
+            android:id="@+id/edtTimKiemChuyen"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="6dp"
+            android:background="@drawable/shape_group_dat_ten_cho_be"
+            android:drawableLeft="@drawable/icon_tim_kiem"
+            android:drawablePadding="10dp"
+            android:fontFamily="monospace"
+            android:hint="@string/hint_tim_kiem"
+            android:padding="4dp"
+            android:textColor="@color/colorTextViewContent" />
+
+        <ImageButton
+            android:id="@+id/btnXoa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerInParent="true"
+            android:layout_marginRight="8dp"
+            android:background="@drawable/ic_xoa" />
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/lvKeChuyenChoBe"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="16dp"
+        ></ListView>
+
+</LinearLayout>

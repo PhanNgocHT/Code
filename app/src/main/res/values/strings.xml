@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Mẹ và Bé</string>
+    <string name="open">Danh mục</string>
+    <string name="close">Trang chủ</string>
+    <string name="tin_tuc_me_va_be">Tin tức mẹ và bé</string>
+    <string name="thai_ky">Thai kỳ</string>
+    <string name="chia_se_ung_dung">Chia sẻ ứng dụng</string>
+    <string name="gui_mail_gop_y">Gửi mail góp ý</string>
+    <string name="danh_gia_ung_dung">Đánh giá ứng dụng</string>
+    <string name="ke_chuyen_cho_be">Kể chuyện cho bé</string>
+    <string name="lich_kham_thai">Lịch khám thai</string>
+    <string name="mua_sam">Mua sắm</string>
+    <string name="nhac_cho_ba_bau">Âm nhạc</string>
+    <string name="so_tay_tiem_phong">Sổ tay tiêm phòng</string>
+    <string name="ten_hay_cua_be">Tên hay của bé</string>
+    <string name="thoi_tiet">Thời tiết</string>
+    <string name="ung_dung_khac">Ứng dụng khác</string>
+    <string name="cham_soc_tre">Chăm sóc trẻ</string>
+    <string name="day_con">Dạy con</string>
+    <string name="dinh_duong_ba_bau">Dinh dưỡng bà bầu</string>
+    <string name="goc_hai_huoc">Góc hài hước</string>
+    <string name="kinh_nghiem_sinh_con">Kinh nghiệm sinh con</string>
+    <string name="noi_dung">Nội dung</string>
+    <string name="san_pham">Sản phẩm</string>
+    <string name="thuc_pham_nen_an">Thực phẩm nên ăn</string>
+    <string name="yeu_thich">Yêu thích</string>
+    <string name="chia_se_bai_viet">Chia sẻ</string>
+    <string name="huong_dan_theo_doi_tre">Hãy thêm thông tin những đứa trẻ của bạn vào để được theo dõi lịch tiêm phòng.</string>
+    <string name="hint_tim_kiem">Nhập từ khóa tìm kiếm</string>
+    <string name="open_navigation_ke_chuyen">Danh sách chuyện</string>
+    <string name="close_navigation_ke_chuyen">Kể chuyện cho bé</string>
+</resources>
